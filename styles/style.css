@@ -38,6 +38,8 @@
   line-height: 96px;
   font-weight: bold;
   width: 730px;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 .header__subtitle{
   position:absolute;
@@ -48,6 +50,8 @@
   line-height: 25px;
   font-weight: normal;
   z-index: 2;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 .header__link{
   color:#2f80ed;
@@ -126,6 +130,7 @@
   line-height: 1.15;
   font-size: 60px;
   font-weight: bold;
+  z-index: 1;
 }
 .section-subtitle{
   display: flex;
@@ -135,6 +140,7 @@
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
+  z-index: 1;
 }
 .table{
   display: flex;
@@ -142,7 +148,6 @@
   margin:0 auto 0 auto;
   justify-content: space-between;
   flex-wrap: wrap;
-
 }
 .table__cell{
   margin-top:60px;
@@ -161,6 +166,7 @@
   font-size: 18px;
   font-weight: normal;
   margin-bottom: 0;
+  margin-top:0;
 }
 .table__text:last-of-type{
   margin-top: 20px;
@@ -175,7 +181,6 @@
   background-color:#f2f2f2;
 }
 .feynman__title{
-
   margin:0 auto 0 auto;
   width: 648px;
   line-height: 1.15;
@@ -229,6 +234,7 @@
   width: 877px;
   height: 877px;
   z-index: 0;
+  background-size:cover;
 }
 .section-title__theme_dark{
   line-height: 1.15;
@@ -258,6 +264,7 @@
   height: 100%;
   padding:60px 0 40px 0;
   justify-content: space-between;
+  box-sizing:border-box;
 }
 .footer__column{
   display:flex;
@@ -270,7 +277,7 @@
 .footer__column_width{
   width: 90%;
   margin:0 auto 0 auto;
-  /* не придумал как сделать по другому, иначе все другие наследуют эту ширину */
+  /* не смог найти Ваш комментарий :( возможно я не там искал */
 }
 .footer__column_content_copyright{
   display: flex;
