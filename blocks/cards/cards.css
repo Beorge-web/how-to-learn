@@ -1,0 +1,10 @@
+.cards{
+  display:grid;
+  width:920px;
+  flex-wrap:wrap;
+  margin-right: auto;
+  margin-left:auto;
+  gap:0 100px;
+  grid-template-columns:repeat(3,240px);
+  justify-content: center;
+}
